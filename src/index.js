@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-    origin:"https://chat-app-frontend-eight-zeta.vercel.app/",
+    origin:"https://chat-app-frontend-eight-zeta.vercel.app",
     credentials:true,
 }));
 
